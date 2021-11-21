@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+ 
+}
+
+ .websitelogo{
+    padding: 0px;
+    margin: 0px;
+ }
+.websitelogo img{
+    padding: 0px;
+    margin: 0px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+
+}
+   
+
+.navbar-manu ul{
+    flex: 800px;
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+    list-style: none;
+    text-align: right;
+    background-color: #ec395d;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+}
+.navbar-manu li{
+    display: inline-block;
+  
+}
+.navbar-manu li a{
+    color:#fff;
+    text-decoration: none;
+    padding: 10px 20px;
+
+}
+.navbar-manu li a:hover{
+  color: orange;
+  
+}
+.text{
+   flex: content;
+   margin: 200px;
+   height: 300px;
+   text-align: center;
+   color: #fff;
+
+}
+
+.text button{
+   border-radius:10px;
+   color:white;
+   background-color: green;
+
+    
+}
+.text button:hover{
+    background-color: red;
+}
+
+.musiclogo img{
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ED50F1;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+   
+}
